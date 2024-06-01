@@ -1,0 +1,16 @@
+img {
+	border-radius: 20px;
+    border: 5px solid #800020;
+	width: 120px;
+	height: 140px;
+}
+p { 
+color: #ADD8E6;
+}
+body {
+    background-image: url('360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg')
+}
+
+table { 
+border: 100px;
+}
