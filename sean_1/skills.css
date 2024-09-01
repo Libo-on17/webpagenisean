@@ -2,14 +2,13 @@
 
 body {
     font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     margin: 0;
     padding: 0;
     background: #282e3c;
-    transition: opacity 0.5s ease; 
+    transition: opacity 0.5s ease;
     background-image: url('d6e73f05a2115e6567dcb3ecdd41aff0.gif');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -38,11 +37,9 @@ header {
     font-size: 50px;
     margin-left: 10px;
     color: #282e3c;
-    font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     position: absolute;
     top: 10px;
-    left: 130px; 
+    left: 130px;
 }
 
 nav ul {
@@ -54,7 +51,6 @@ nav ul {
 
 nav a {
     font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 16px;
@@ -95,7 +91,6 @@ nav a {
 
 main {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 50px;
 }
@@ -106,25 +101,26 @@ main {
 }
 
 .intro h1 {
-    font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     font-size: 36px;
     margin: 0;
     color: #fff;
 }
 
-.intro h2 {
-    font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
-    font-size: 48px;
-    margin: 10px 0;
-}
-
 .intro li {
-    font-family: 'BatmanForeverOutline', sans-serif;
-    font-family: 'BatmanForeverAlternate', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
     color: #fff;
+}
+
+.certificate {
+    max-width: 50%;
+    margin-top: 200px;
+}
+
+.certificate img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
